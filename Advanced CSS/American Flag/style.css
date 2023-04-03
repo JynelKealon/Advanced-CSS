@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .flagcolorscontainer{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: repeat(13, 1fr);
+    top: 0;
+  }
+  .red{
+    background-color: red;
+  }
+  
+  .white{
+    background-color: white;
+  }
+  img{
+    position: absolute;
+    width: 650px;
+    height: 442px;
+  }
